@@ -21,6 +21,11 @@ nav .navbar-nav .nav-link {
 nav .navbar-nav .nav-link:hover { 
     color: #f2f2f2; /* Alterando a cor dos links ao passar o mouse para um branco suave */
 }  
+
+.card {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
+
 /* Footer */ 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
 
