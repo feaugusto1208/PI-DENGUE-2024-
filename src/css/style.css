@@ -49,8 +49,6 @@ section .section-title {
     background-color: #D9D9D9; /* Cor de fundo branca */
     padding: 20px;
     border-radius: 8px; /* Cantos arredondados mais suaves */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
 }
 
 .card .card-title {
@@ -71,11 +69,6 @@ section .section-title {
     color: #333333; /* Cor do texto dentro do card (cinza escuro) */
     font-size: 0.9em; /* Tamanho da fonte */
     line-height: 1.5; /* Altura da linha */
-}
-
-.card:hover {
-    transform: translateY(-5px); /* Efeito de levantar um pouco ao passar o mouse */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais intensa ao passar o mouse */
 }
 
 #footer {
