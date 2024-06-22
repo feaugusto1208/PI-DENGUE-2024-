@@ -43,6 +43,41 @@ section .section-title {
     margin-bottom: 50px; 
     text-transform: uppercase; 
 }   
+
+.card {
+    margin-top: 20px;
+    background-color: #D9D9D9; /* Cor de fundo branca */
+    padding: 20px;
+    border-radius: 8px; /* Cantos arredondados mais suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.card .card-title {
+    color: #0568D0; /* Cor do título dentro do card (azul) */
+    font-weight: bold; /* Negrito */
+    font-size: 1.2em; /* Tamanho da fonte */
+    line-height: 1.4; /* Altura da linha */
+}
+
+.card .card-subtitle {
+    color: #0796D0; /* Cor do subtítulo dentro do card (azul claro) */
+    font-style: italic; /* Itálico */
+    font-size: 1em; /* Tamanho da fonte */
+    line-height: 1.2; /* Altura da linha */
+}
+
+.card .card-text {
+    color: #333333; /* Cor do texto dentro do card (cinza escuro) */
+    font-size: 0.9em; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de levantar um pouco ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais intensa ao passar o mouse */
+}
+
 #footer {
     background: #036699 !important;
 }
