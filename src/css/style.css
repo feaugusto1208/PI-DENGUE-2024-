@@ -52,7 +52,7 @@ section .section-title {
 }
 
 .card .card-title {
-    color: #0568D0; /* Cor do título dentro do card (azul) */
+    color: #ff8800; /* Cor do título dentro do card (azul) */
     font-weight: bold; /* Negrito */
     font-size: 1.2em; /* Tamanho da fonte */
     line-height: 1.4; /* Altura da linha */
@@ -69,6 +69,7 @@ section .section-title {
     color: #333333; /* Cor do texto dentro do card (cinza escuro) */
     font-size: 0.9em; /* Tamanho da fonte */
     line-height: 1.5; /* Altura da linha */
+    font-weight: bold; 
 }
 
 #footer {
