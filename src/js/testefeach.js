@@ -1,6 +1,6 @@
 
 var dataArray=[];casosArray=[]
-var UrLdaApi ="http://localhost:3000/api";
+var UrLdaApi ="https://pi-dengue-fatec-1-sem-2024.vercel.app/api";
 async function getapidenguedata(){
   
   const resposta= await fetch(UrLdaApi);
