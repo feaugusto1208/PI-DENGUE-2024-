@@ -1,9 +1,17 @@
 {
   "version": 2,
   "builds": [
-    { "src": "/src/", "use": "@vercel/node" }
+    { "src": "/src/js/server.js", "use": "@vercel/node" },
+    { "src": "/index.html", "use": "@vercel/static" },
+    { "src": "/src/css/style.css", "use": "@vercel/static" },
+    { "src": "/src/js/script.js", "use": "@vercel/static" },
+    { "src": "/src/img/*", "use": "@vercel/static" },
+    { "src": "/src/js/testefeach.js", "use": "@vercel/static" }
+
+    
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/projeto/src/js/server.js" }
+    { "src": "/api", "dest": "/src/js/server.js" },
+    { "src": "/site", "dest": "/index.html" }
   ]
 }
