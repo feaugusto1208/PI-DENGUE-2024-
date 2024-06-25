@@ -46,18 +46,19 @@
                         Geral</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#grafico" title="Dados"><i
+                    <a class="nav-link" href="#dados" title="Dados"><i
                             class="bi bi-exclamation-triangle-fill"></i>Dados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="jquery.html" title="Região"><i class="bi bi-geo-alt-fill"></i>Região</a>
+                    <a class="nav-link" href="jquery.html" title="Região"><i
+                            class="bi bi-geo-alt-fill"></i>Região</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="calculos.html" title="Ações"><i class="bi bi-info-circle-fill"></i>Ações
-                        de combate</a>
+                    <a class="nav-link" href="calculos.html" title="Ações"><i
+                            class="bi bi-info-circle-fill"></i>Ações de combate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="validacaoForm.html" title="Contato"><i
+                    <a class="nav-link" href="#contatos" title="Contatos"><i
                             class="bi bi-telephone-fill"></i>Contatos</a>
                 </li>
             </ul>
@@ -153,9 +154,7 @@
             </div> <!-- fim da row -->
         </div> <!-- fim do container -->
 
-        <div class="section" style="margin: 3em;"></div> <!-- Section para criar um espaço vazio entre conteúdos -->
-
-        <div class="row">
+        <div class="row" id="dados">
             <div class="col-md-4 offset-md-4 text-center">
                 <div class="card">
                     <div class="card-body">
@@ -185,7 +184,7 @@
             </div> -->
         </div><!--fim row-->
 
-        <div class="container mt-3" id="grafico"> <!--Espaço vazio para afastar gráfico-->
+        <div class="container mt-3" id="grafico"> <!--Espaço vazio para afastar gráfico--> 
             <div class="row">
                 <div class="col-md-12 text-center">
                     <p></p>
@@ -213,7 +212,7 @@
 
         <div class="section" style="margin: 3em;"></div> <!-- Section para criar um espaço vazio entre conteúdos -->
 
-        <div class="row mt-3 align-items-center">
+        <div class="row mt-3 align-items-center" id="regiao">
             <p></p>
             <div class="col-md-6">
                 <h3 class="font-weight-bold">Unidades de Atendimento</h3>
@@ -276,83 +275,77 @@
 
     </div> <!-- fim da lista -->
 
-    <div class="container mt-3"> <!--começo das Ações-->
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="font-weight-bold" style="color: #003E5C;">Ações de combate</h3>
-                <p>Veja como evitar a contaminação e proliferação da dengue!</p>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Medidas Preventivas!</h5>
-                        <p class="card-text">Aplique repelentes regularmente na pele para se proteger contra picadas de
-                            mosquito, principalmente pela manhã e tarde.</p>
+        <div class="container mt-3"> <!--começo das Ações-->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="font-weight-bold" style="color: #003E5C;">Ações de combate</h3>
+                    <p>Veja como evitar a contaminação e proliferação da dengue!</p>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Medidas Preventivas!</h5>
+                            <p class="card-text">Aplique repelentes regularmente na pele para se proteger contra picadas de mosquito, principalmente pela manhã e tarde.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Se previna!</h5>
-                        <p class="card-text">Coloque telas de proteção em todas as janelas e portas para impedir que os
-                            mosquitos entrem em sua casa, proporcionando uma barreira física eficaz.</p>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Se previna!</h5>
+                            <p class="card-text">Coloque telas de proteção em todas as janelas e portas para impedir que os mosquitos entrem em sua casa, proporcionando uma barreira física eficaz.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Atenção e Cuidado.</h5>
-                        <p class="card-text">Em caso de sintomas como febre alta, dores no corpo e manchas vermelhas na
-                            pele. Procure ajuda médica. Consulte nossa lista.</p>
+                
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Atenção e Cuidado.</h5>
+                            <p class="card-text">Em caso de sintomas como febre alta, dores no corpo e manchas vermelhas na pele. Procure ajuda médica. Consulte nossa lista.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Fique antenado!</h5>
-                        <p class="card-text">Esteja sempre informado sobre os casos de dengue em sua região. Veja o
-                            nosso gráfico para maiores detalhes da situação atual.</p>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Fique antenado!</h5>
+                            <p class="card-text">Esteja sempre informado sobre os casos de dengue em sua região. Veja o nosso gráfico para maiores detalhes da situação atual.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Casa e vizinhança.</h5>
-                        <p class="card-text">Identifique possíveis focos de dengue na sua região. O acúmulo de água em
-                            recipientes pode aumentar a proliferação do mosquito da dengue.</p>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa e vizinhança.</h5>
+                            <p class="card-text">Identifique possíveis focos de dengue na sua região. O acúmulo de água em recipientes pode aumentar a proliferação do mosquito da dengue.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 mb-2">
-                <div class="card card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Contate as autoridades!</h5>
-                        <p class="card-text">Em caso de dúvidas, entre em contato com orgãos como a Secretaria de Saúde.
-                            Consulte informações de contato abaixo.</p>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Contate as autoridades!</h5>
+                            <p class="card-text">Em caso de dúvidas, entre em contato com orgãos como a Secretaria de Saúde. Consulte informações de contato abaixo.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div> <!-- fim da row -->
-    </div> <!-- fim do container -->
+            </div> <!-- fim da row -->
+        </div> <!-- fim do container -->
 
     <div class="section" style="margin: 3em;"></div> <!-- Section para criar um espaço vazio entre conteúdos -->
 
-    <div class="container mt-3"> <!--começo dos contatos-->
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="font-weight-bold" style="color: #003E5C;">Contato</h3>
-                <p>Contatos na área de sáude.</p>
-            </div>
+        <div class="container mt-3"> <!--começo dos contatos-->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="font-weight-bold" style="color: #003E5C;">Contato</h3>
+                    <p>Contatos na área de sáude.</p>
+                </div>
 
             <div class="col-md-4 col-sm-12 mb-2">
                 <h5 class="card-title">Secretaria Municipal de Saúde</h5>
@@ -400,14 +393,13 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <h5>Links rápidos</h5>
                     <ul class="list-unstyled quick-links">
-                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Visão
-                                geral</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Visão geral</a></li>
                         <li><a href="https://www.fiverr.com/share/qb8D02"><i
                                     class="fa fa-angle-double-right"></i>Dados</a></li>
-                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                        <li><a href="#regiao"><i
                                     class="fa fa-angle-double-right"></i>Região</a></li>
-                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Ações
-                                de combate</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Ações de combate</a></li>
                         <li><a href="https://www.fiverr.com/share/qb8D02"><i
                                     class="fa fa-angle-double-right"></i>Contatos</a></li>
                     </ul>
